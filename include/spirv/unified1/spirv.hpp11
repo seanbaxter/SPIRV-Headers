@@ -535,6 +535,12 @@ enum class Decoration : unsigned {
     FunctionFloatingPointModeINTEL = 6080,
     SingleElementVectorINTEL = 6085,
     VectorComputeCallableFunctionINTEL = 6087,
+
+    // HLSL decorations.
+    // DXILName has one operands:
+    // * LiteralString
+    DXILName = 10001,
+
     Max = 0x7fffffff,
 };
 
