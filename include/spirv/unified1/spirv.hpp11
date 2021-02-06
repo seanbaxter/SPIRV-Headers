@@ -178,6 +178,10 @@ enum class ExecutionMode : unsigned {
     NoGlobalOffsetINTEL = 5895,
     NumSIMDWorkitemsINTEL = 5896,
     SchedulerTargetFmaxMhzINTEL = 5903,
+
+    // DXIL-specific attributes
+    DxilMaxTessFactor
+
     Max = 0x7fffffff,
 };
 
