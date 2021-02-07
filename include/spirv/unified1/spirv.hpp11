@@ -543,7 +543,7 @@ enum class Decoration : unsigned {
     // HLSL decorations.
     // DXILName has one operands:
     // * LiteralString
-    DXILName = 10001,
+    Semantic,
 
     Max = 0x7fffffff,
 };
